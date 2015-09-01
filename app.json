@@ -1,0 +1,25 @@
+{
+	"name": "slack-rally",
+	"description": "Slack connection to Rally Dev",
+	"repository": "https://github.com/bradrich/slack-rally",
+	"website": "https://github.com/bradrich/slack-rally",
+	"keywords": ["slack", "command", "bot", "chat"],
+	"env": {
+		"SLACK_HOOK_URL": {
+			"description": "Slack incoming WebHook URL",
+			"required": true
+		},
+		"USERNAME": {
+			"description": "Optional: Username to use when replying with the conversion result (default: Rallybot)",
+			"required": false
+		},
+		"EMOJI": {
+			"description": "Optional: Emoji icon to use when replying with the conversion result (default: :skull:)",
+			"required": false
+		},
+		"SLACK_TOKEN": {
+			"description": "Optional: Additional security step: Slack slash command token for verification that the request came from your Slack team",
+			"required": false
+		}
+	}
+}

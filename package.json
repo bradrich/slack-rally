@@ -1,0 +1,30 @@
+{
+  "name": "slack-rally",
+  "version": "0.1.0",
+  "description": "Slack connection to Rally Dev",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradrich/slack-rally"
+  },
+  "author": "Brad Richardson <brad@designchanged.us> (https://github.com/bradrich)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bradrich/slack-rally/issues"
+  },
+  "homepage": "https://github.com/bradrich/slack-rally",
+  "dependencies": {
+    "express": "^4.13.3",
+    "querystring": "0.2.0",
+    "slack-notify": "0.1.4"
+  }
+}
