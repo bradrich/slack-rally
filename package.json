@@ -23,8 +23,9 @@
   },
   "homepage": "https://github.com/bradrich/slack-rally",
   "dependencies": {
-    "express": "^4.13.3",
+    "logme": "^0.4.0",
     "querystring": "0.2.0",
+    "requestify": "^0.1.17",
     "slack-notify": "0.1.4"
   }
 }

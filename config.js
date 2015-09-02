@@ -15,6 +15,9 @@ module.exports = {
 
 	// The Slack host
 	'slack_host': 'https://hooks.slack.com/services/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',
-	'slack_token': 'AYSdw036OoTydHtpQOkG9Pm0'
+	'slack_token': 'AYSdw036OoTydHtpQOkG9Pm0',
+
+	// Rally parameters
+	'rally_url': 'https://rally1.rallydev.com/slm/webservice/v2.0/'
 
 };
